@@ -1,13 +1,79 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.imgHero {
+  width: 50%;
+  height: 25rem;
+  position: absolute;
+  left: 35rem;
+  top: 60px;
+  z-index: -1;
+}
+
+.title{
+  padding: 10rem;
+  margin-right: 35rem;
+}
+
+
+.contAbout{
+  background-color: rgb(49, 211, 195);
+}
+
+.text{
+  margin: auto;
+  padding: 10px;
+  width: 75rem;
+}
+
+.contProjects{
+  background-color: #7849BD;
+}
+
+.col1{
+  background-color: white;
+  margin: auto;
+  width: 20rem;
+  margin-left: 25px;
+}
+
+.col2{
+  background-color: white;
+  margin: auto;
+  width: 20rem;
+}
+
+.col3{
+  background-color: white;
+  margin: auto;
+  width: 20rem;
+
+}
+
+.col4{
+  background-color: white;
+  margin: auto;
+  width: 20rem;
+  margin-right: 25px;
+}
+
+.contContact{
+  background-color: #7EBB00;
+}
+
+.nav-link{
+  color: black;
+}
+
+
